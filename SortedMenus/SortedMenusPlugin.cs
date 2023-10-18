@@ -5,9 +5,10 @@ using System.Reflection;
 
 namespace SortedMenus
 {
-    [BepInPlugin("goldenrevolver.SortedMenus", NAME, VERSION)]
+    [BepInPlugin(GUID, NAME, VERSION)]
     public class SortedMenusPlugin : BaseUnityPlugin
     {
+        public const string GUID = "goldenrevolver.SortedMenus";
         public const string NAME = "Sorted Cooking, Crafting and Skills Menu";
         public const string VERSION = "1.3.3";
 
