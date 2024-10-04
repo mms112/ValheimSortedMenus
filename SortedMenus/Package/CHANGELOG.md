@@ -1,5 +1,7 @@
 # Changelog
 
+## 1.3.4
+- Updated english name overwrites for new base game casing rules and added support for the new mead bases
 ## 1.3.3
 - Added config option to also sort the hand crafting menu in your inventory. Disabled by default
 - Moved source from my mini mod repository to its own repository

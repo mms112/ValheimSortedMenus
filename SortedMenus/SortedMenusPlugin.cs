@@ -10,7 +10,7 @@ namespace SortedMenus
     {
         public const string GUID = "goldenrevolver.SortedMenus";
         public const string NAME = "Sorted Cooking, Crafting and Skills Menu";
-        public const string VERSION = "1.3.3";
+        public const string VERSION = "1.3.4";
 
         private const string combineSkillsMod = "goldenrevolver.CombineSpearAndPolearmSkills";
         private const string augaMod = "randyknapp.mods.auga";
