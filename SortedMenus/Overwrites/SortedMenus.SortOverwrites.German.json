@@ -1,0 +1,15 @@
+{
+	"$item_knife_copper": "Bronzemesser",
+
+	"$item_bow_huntsman": "Eisenjägerbogen",
+	"$item_spear_ancientbark": "Eisenrindenspeer",
+	"$item_battleaxe": "Eisenstreitaxt",
+	"$item_shield_ironbuckler": "Eisenschild",
+	"$item_shield_banded": "Eisenschild2",
+
+	"$item_battleaxe_crystal": "Silberstreitaxt",
+	"$item_fistweapon_fenris": "Silberfleischreißer",
+	"$item_spear_wolffang": "Silberwolfszahnspeer",
+	"$item_mace_silver": "Silberfrostner",
+	"$item_bow_draugrfang": "Silberdraugr-Fangzahn"
+}

@@ -10,7 +10,7 @@ namespace SortedMenus
 {
     internal class OverwriteFileLoader
     {
-        public static string[] supportedEmbeddedLanguages = new[] { "English" };
+        public static string[] supportedEmbeddedLanguages = new[] { "English", "German" };
 
         private const string embeddedPathFormat = "SortedMenus.Overwrites.{0}.{1}.json";
 
