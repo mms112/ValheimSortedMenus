@@ -24,6 +24,7 @@ namespace SortedMenus
             // modded cooking pots don't get caching
             if (stationName != "piece_cauldron")
             {
+                UpdateCookingStationAndOvenRecipeList();
                 recipes.Sort((recipeA, recipeB) => recipeA.CompareRecipeTo(recipeB, CraftingStationType.CookingPot));
             }
             else if (!SortedRecipeCaches.TryReapplySorting(ref recipes, SortedRecipeCaches.cachedSortedCauldronRecipes))

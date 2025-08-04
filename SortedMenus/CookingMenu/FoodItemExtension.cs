@@ -24,6 +24,10 @@
             {
                 item = cookingStationOutput;
             }
+            else if (item.m_shared.m_appendToolTip != null && item.m_shared.m_itemType != ItemDrop.ItemData.ItemType.Consumable)
+            {
+                item = item.m_shared.m_appendToolTip.m_itemData;
+            }
 
             return item.m_shared.m_itemType == ItemDrop.ItemData.ItemType.Consumable;
         }
