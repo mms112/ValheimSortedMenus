@@ -52,7 +52,7 @@ namespace SortedMenus
         }
 
         [HarmonyPatch(typeof(InventoryGui), nameof(InventoryGui.UpdateRecipeList)), HarmonyTranspiler]
-        private static IEnumerable<CodeInstruction> DisableVanillaSort(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+        private static IEnumerable<CodeInstruction> DisableVanillaSort(IEnumerable<CodeInstruction> instructions)
         {
             //Workaround for a bug in the harmony transpiler, which will always leave a try/catch block to the first instruction after the block (labels are ignored)
             //Insert a jump instruction to fix this
