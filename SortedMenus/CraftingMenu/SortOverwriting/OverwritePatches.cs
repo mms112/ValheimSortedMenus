@@ -32,7 +32,7 @@ namespace SortedMenus
             }
         }
 
-        private static readonly string[] uniformVanillaArmorSets = new string[] { "bronze", "carapace", "iron", "fenris", "leather", "mage", "trollleather", "root" };
+        private static readonly string[] uniformVanillaArmorSets = new string[] { "bronze", "carapace", "iron", "fenris", "leather", "mage", "trollleather", "root", "berserker" };
 
         private static void LoadBaseGameArmorSortOverwrites()
         {
@@ -56,6 +56,8 @@ namespace SortedMenus
 
             baseGameArmorSortOverwrites["$item_cape_deerhide"] = "$item_chest_leather";
             baseGameArmorSortOverwrites["$item_cape_trollhide"] = "$item_chest_trollleather";
+
+            baseGameArmorSortOverwrites["$item_fistweapon_bjorn"] = "$item_chest_berserker";
 
             // different crafting station, but still
             baseGameArmorSortOverwrites["$item_cape_wolf"] = "$item_chest_wolf";

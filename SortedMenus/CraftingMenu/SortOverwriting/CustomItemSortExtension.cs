@@ -79,6 +79,9 @@
                 case ItemDrop.ItemData.ItemType.AmmoNonEquipable:
                     return 1;
 
+                case ItemDrop.ItemData.ItemType.Trinket:
+                    return 2;
+
                 default:
                     return ammoPriority == SortAmmo.ToTheTop ? 5 : -5;
             }
@@ -90,6 +93,7 @@
             {
                 case ItemDrop.ItemData.ItemType.Ammo:
                 case ItemDrop.ItemData.ItemType.AmmoNonEquipable:
+                case ItemDrop.ItemData.ItemType.Trinket:
                     return true;
 
                 default:
